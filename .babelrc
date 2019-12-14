@@ -5,7 +5,7 @@
   "plugins": [
     "transform-object-assign",
     "@babel/plugin-proposal-optional-chaining",
-    "proposal-class-properties",
+    "@babel/plugin-proposal-class-properties",
     [
       "transform-react-jsx",
       {
