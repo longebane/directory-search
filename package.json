@@ -22,6 +22,7 @@
 "babel-preset-preact": "^2.0.0",
 "@babel/cli": "^7.0.0",
 "@babel/plugin-transform-object-assign": "^7.7.4", 
+    "@babel/plugin-proposal-optional-chaining": "^7.7.4",
     "eslint-config-synacor": "^1.1.0",
     "eslint": "^4.5.0",
     "if-env": "^1.0.0",
@@ -36,7 +37,6 @@
   "dependencies": {
     "@babel/core": "7.7.5",
     "@babel/plugin-proposal-class-properties": "7.7.4",
-    "@babel/plugin-proposal-optional-chaining": "7.7.5",
     "@babel/preset-env": "7.7.6",
     "@material-ui/core": "3.9.4",
     "preact": "^8.2.6",
