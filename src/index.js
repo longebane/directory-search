@@ -89,7 +89,7 @@ export default class App extends Component {
             />
           </div>
           <hr />
-          {!isUpdating && results?.files?.length > 0 && (
+          {!isUpdating && results && results.files.length > 0 && (
             <Results
               isUpdating={isUpdating}
               handleSetMusic={this.handleSetMusic}
